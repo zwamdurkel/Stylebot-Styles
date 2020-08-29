@@ -1,0 +1,80 @@
+#myday-content > div > div > section:nth-child(10) {
+  background-color: green;
+}
+
+#myday-content > div > div > section:nth-child(15) {
+  background-color: blue;
+}
+
+#myday-content > div > div > section:nth-child(21) {
+  background-color: orange;
+}
+
+#myday-content > div > div > section:nth-child(3) {
+  background-color: red;
+}
+
+#myday-content > div > div > section:nth-child(38) {
+  background-color: purple;
+}
+
+.tile-inner {
+  transition: background .2s;
+}
+
+.tile-inner:hover {
+  background-color: rgba(190,190,190,0.3);
+}
+
+.tiles {
+  margin: 100px auto;
+}
+
+/*.tile-inner:hover h2.ng-binding {
+  filter: brightness(20%);
+}*/
+
+div.myday-footer.b-t.bg-light.ng-scope {
+  background-color: #951992;
+  border-top: none;
+  color: #ccc;
+}
+
+div.tiles-wrapper.ng-scope.tiles-animations.tile-flip.tiles-fixed.tiles-desktop {
+  background-color: #412e42;
+  background-image: url("https://i.imgur.com/3BfQZtz.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+div.tiles.ng-scope.gridster.gridster-desktop.gridster-loaded {
+  font-family: Roboto;
+  font-variant: normal;
+  font-weight: normal;
+}
+
+h2.ng-binding {
+  color: white;
+  filter: brightness(111%);
+  font-family: monospace;
+  font-size: 13px;
+  margin-left: 2px;
+  text-shadow: 1px 1px 5px #412e42, -1px -1px 5px #412e42, -1px 1px 5px #412e42, 1px -1px 5px #412e42;
+}
+
+section.tile.ng-scope.gridster-item {
+  background-color: rgba(120,120,120,0.3);
+  border: solid 2px #49344A;
+  border-radius: 5px;
+  filter: brightness(90%);
+}
+
+section.tile.ng-scope.live.gridster-item.size-4.newsroomfeed.ready > .tile-inner {
+  color: white;
+  padding: 10px;
+}
+
+section.tile.ng-scope.live.gridster-item.size-4.newsroomfeed.ready > div > header {
+  margin: 0 0 -10px -10px;
+}
+
