@@ -1,21 +1,21 @@
 #myday-content > div > div > section:nth-child(10) {
-  background-color: green;
+  background-color: green !important;
 }
 
 #myday-content > div > div > section:nth-child(15) {
-  background-color: blue;
+  background-color: blue !important;
 }
 
 #myday-content > div > div > section:nth-child(21) {
-  background-color: orange;
+  background-color: orange !important;
 }
 
 #myday-content > div > div > section:nth-child(3) {
-  background-color: red;
+  background-color: red !important;
 }
 
 #myday-content > div > div > section:nth-child(38) {
-  background-color: purple;
+  background-color: purple !important;
 }
 
 .tile-inner {
@@ -23,7 +23,7 @@
 }
 
 .tile-inner:hover {
-  background-color: rgba(190,190,190,0.3);
+  background-color: rgba(190,190,190,0.3) !important;
 }
 
 .tiles {
@@ -35,7 +35,7 @@
 }*/
 
 div.myday-footer.b-t.bg-light.ng-scope {
-  background-color: #951992;
+  background-color: #951992 !important;
   border-top: none;
   color: #ccc;
 }
@@ -63,7 +63,7 @@ h2.ng-binding {
 }
 
 section.tile.ng-scope.gridster-item {
-  background-color: rgba(120,120,120,0.3);
+  background-color: rgba(120,120,120,0.3) !important;
   border: solid 2px #49344A;
   border-radius: 5px;
   filter: brightness(90%);
