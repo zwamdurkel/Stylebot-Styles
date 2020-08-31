@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: #333;
+  --main-header-color: #151515;
 }
 
 #myday-content > div > div > section:nth-child(10) {
@@ -38,10 +39,14 @@
   filter: brightness(20%);
 }*/
 
-div.myday-footer.b-t.bg-light.ng-scope {
-  background-color: #951992 !important;
+div.myday-footer.b-t.bg-light.ng-scope, div.collapse.navbar-collapse.md-topbar.ng-scope {
+  background-color: var(--main-header-color) !important;
   border-top: none;
   color: #ccc;
+}
+
+.md-topbar .nav > li > a {
+  color: #fff !important;
 }
 
 div.tiles-wrapper.ng-scope.tiles-animations.tile-flip.tiles-fixed.tiles-desktop {
