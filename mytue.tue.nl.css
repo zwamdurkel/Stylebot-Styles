@@ -1,3 +1,7 @@
+:root {
+  --main-bg-color: #333;
+}
+
 #myday-content > div > div > section:nth-child(10) {
   background-color: green !important;
 }
@@ -41,7 +45,7 @@ div.myday-footer.b-t.bg-light.ng-scope {
 }
 
 div.tiles-wrapper.ng-scope.tiles-animations.tile-flip.tiles-fixed.tiles-desktop {
-  background-color: #412e42;
+  background-color: var(--main-bg-color);
   background-image: url("https://i.imgur.com/3BfQZtz.png");
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -64,7 +68,7 @@ h2.ng-binding {
 
 section.tile.ng-scope.gridster-item {
   background-color: rgba(120,120,120,0.3) !important;
-  border: solid 2px #49344A;
+  border: solid 2px var(--main-bg-color);
   border-radius: 5px;
   filter: brightness(90%);
 }
