@@ -51,9 +51,6 @@ div.myday-footer.b-t.bg-light.ng-scope, div.collapse.navbar-collapse.md-topbar.n
 
 div.tiles-wrapper.ng-scope.tiles-animations.tile-flip.tiles-fixed.tiles-desktop {
   background-color: var(--main-bg-color);
-  background-image: url("https://i.imgur.com/3BfQZtz.png");
-  background-position: right bottom;
-  background-repeat: no-repeat;
 }
 
 div.tiles.ng-scope.gridster.gridster-desktop.gridster-loaded {
