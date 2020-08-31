@@ -1,6 +1,7 @@
 :root {
   --main-bg-color: #333;
   --main-header-color: #151515;
+  --main-shadow-color: #000;
 }
 
 #myday-content > div > div > section:nth-child(10) {
@@ -64,7 +65,7 @@ h2.ng-binding {
   font-family: monospace;
   font-size: 13px;
   margin-left: 2px;
-  text-shadow: 1px 1px 5px #412e42, -1px -1px 5px #412e42, -1px 1px 5px #412e42, 1px -1px 5px #412e42;
+  text-shadow: 1px 1px 5px var(--main-shadow-color), -1px -1px 5px var(--main-shadow-color), -1px 1px 5px var(--main-shadow-color), 1px -1px 5px var(--main-shadow-color);
 }
 
 section.tile.ng-scope.gridster-item {
