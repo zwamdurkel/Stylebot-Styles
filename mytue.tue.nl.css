@@ -63,7 +63,7 @@ div.tiles.ng-scope.gridster.gridster-desktop.gridster-loaded {
 h2.ng-binding {
   color: white;
   font-family: monospace;
-  font-size: 13px;
+  font-size: 13px !important;
   margin-left: 2px;
   text-shadow: 1px 1px 5px var(--main-shadow-color), -1px -1px 5px var(--main-shadow-color), -1px 1px 5px var(--main-shadow-color), 1px -1px 5px var(--main-shadow-color);
 }
