@@ -1,7 +1,7 @@
 :root {
   --main-bg-color: #333;
   --main-header-color: #151515;
-  --main-shadow-color: #000;
+  --main-shadow-color: #222;
 }
 
 #myday-content > div > div > section:nth-child(10) {
