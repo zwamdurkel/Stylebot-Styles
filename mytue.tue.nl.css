@@ -72,7 +72,6 @@ section.tile.ng-scope.gridster-item {
   background-color: rgba(120,120,120,0.3) !important;
   border: solid 2px var(--main-bg-color);
   border-radius: 5px;
-  filter: brightness(90%);
 }
 
 section.tile.ng-scope.live.gridster-item.size-4.newsroomfeed.ready > .tile-inner {
